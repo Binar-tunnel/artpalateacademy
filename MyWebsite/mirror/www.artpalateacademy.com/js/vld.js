@@ -798,7 +798,7 @@ function validateCust(errDiv){
     else{            
             $.ajax({
                 type: "POST",
-                url: "get_result.php",//"http://www.indiabizsource.com/client/doctor-diet/get_result.php",
+                url: '/php',
                 data: $("#frmCust").serialize(), // serializes the form's elements.
                 success: function(msg)
                 {                                        
