@@ -28872,3 +28872,28 @@ top:-41%;
     float: left;
     list-style: initial;
 }
+.carousel-inner {
+	 position:relative;
+	 text-align:center !important;
+ }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  
+ 
+ .slider_img {
+	  background: src="banners/banner1.jpg" no-repeat center top;
+	  height:600px;
+  }
+     
+ .slider_img2 {
+	  background: src="banners/K-&-S-Enterprises-Banner-01-(3).jpg" no-repeat center top !important;
+	  height:600px;
+  }
+   
+  .carousel-control.left, 
+  .carousel-control.right {
+	  background:none !important;
+  }
